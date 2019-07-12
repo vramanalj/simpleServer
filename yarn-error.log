@@ -1,0 +1,46 @@
+Arguments: 
+  /usr/local/lib/node_modules/node/bin/node /usr/local/bin/yarn install cors
+
+PATH: 
+  /Users/vivek/.sdkman/candidates/gradle/current/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/vivek/opt/apache-maven-3.5.0/bin:/Users/vivek/opt/apache-ant-1.10.1/bin:/usr/local/mysql/bin:/Users/vivek/Library/Android/sdk/platform-tools:/opt/X11/bin:/Users/vivek/Library/Android/sdk/bin:/usr/local/lib/node_modules/node/bin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  10.10.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "expressapp",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+      "start": "node ./bin/www"
+    },
+    "dependencies": {
+      "cookie-parser": "~1.4.3",
+      "debug": "~2.6.9",
+      "ejs": "~2.5.7",
+      "express": "~4.16.0",
+      "http-errors": "~1.6.2",
+      "morgan": "~1.9.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: `install` has been replaced with `add` to add new dependencies. Run "yarn add cors" instead.
+      at new MessageError (/usr/local/lib/node_modules/yarn/lib/cli.js:186:110)
+      at Object.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:21987:13)
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:98:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:109:13
